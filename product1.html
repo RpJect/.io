@@ -6,7 +6,7 @@
   <title>Contact Form</title>
   <style>
     /* Your custom CSS styles here */
-    /* For example, adjust font sizes, colors, and layout */
+    /* Adjust as needed */
     body {
       font-family: Arial, sans-serif;
     }
@@ -37,13 +37,17 @@
   </style>
 </head>
 <body>
-  <h1>Contact Us</h1>
-  <form action="process_form.php" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <!-- Other form fields -->
-    <input type="submit" value="Submit">
-  </form>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form action="process_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
 </body>
 </html>
-
