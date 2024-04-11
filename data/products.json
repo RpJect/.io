@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Awesome Widget",
+        "price": 49.99,
+        "description": "A versatile widget for all your needs.",
+        "image": "widget.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Super Gadget",
+        "price": 129.99,
+        "description": "The ultimate gadget with cutting-edge features.",
+        "image": "gadget.jpg"
+    }
+    // Add more products as needed
+]

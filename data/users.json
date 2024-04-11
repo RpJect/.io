@@ -1,0 +1,15 @@
+[
+    {
+        "id": 101,
+        "username": "webdev123",
+        "email": "webdev@example.com",
+        "role": "admin"
+    },
+    {
+        "id": 102,
+        "username": "user456",
+        "email": "user456@example.com",
+        "role": "user"
+    }
+    // Add more users as needed
+]

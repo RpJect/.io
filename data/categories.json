@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Electronics"
+    },
+    {
+        "id": 2,
+        "name": "Home & Living"
+    }
+    // Add more categories as needed
+]
