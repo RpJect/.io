@@ -70,11 +70,9 @@ footer {
     color: #fff;
   position:absolute;
    bottom:0;
-   width:100%;
-   height:60px; /* Height of the footer */
-   background:#72c2f1;
+  
     clear: both;
-    position: relative;
+   
     height: 200px;
     margin-top: -200px;
 }
