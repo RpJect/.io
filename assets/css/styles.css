@@ -74,7 +74,19 @@ footer {
    height:60px; /* Height of the footer */
    background:#72c2f1;
 }
+#flex-container {
+   display:flex;
+   flex-direction:column;
 
+   /* fallback height */
+   min-height:100vh;
+
+   /* new small viewport height for modern browsers */
+   min-height:100svh;
+}
+#flex-container > footer {
+   margin-top:auto;
+}
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
