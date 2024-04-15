@@ -69,12 +69,20 @@ footer {
     padding: 1rem;
     background-color: #333;
     color: #fff;
-     clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
+    
 }
 
+#container {
+   display:grid;
+   grid-template-rows:auto 1fr auto;
+   grid-template-columns:100%;
+
+   /* fallback height */
+   min-height:100vh;
+
+   /* new small viewport height for modern browsers */
+   min-height:100svh;
+}
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     nav ul {
